@@ -6,12 +6,14 @@ import one._02_enums.ColorEnum
 /**
  * author： YJZ
  * date:  2019/2/28
- * des:
+ * des: 第二章、kotlin基础
  */
 object Main {
 
-    @JvmStatic
-    fun main(args: Array<String>) {
+    // public static final String = "TAG"
+    const val str = "TAG"
+
+    @JvmStatic fun main(args: Array<String>) {
         // 01与02知识点
         _01_And_02_()
         // 03知识点

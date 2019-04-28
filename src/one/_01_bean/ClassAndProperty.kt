@@ -26,12 +26,9 @@ public class ClassAndProperty {
 class ClassAndProperty(var name:String,var age:Int){
     // 内部属性的getter
     var isBigBoy:Boolean = false
-        // 不需要花括号的写法 get() = if (age > 18) true else false
+    // 不需要花括号的写法 get() = if (age > 18) true else false
         get() {
             return age > 18
         }
 }
-
-
-
 
